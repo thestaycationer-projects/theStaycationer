@@ -1,0 +1,38 @@
+.section-1{
+
+}
+
+.section-1a{
+
+}
+
+.section-1a-heading{
+    text-align: left;
+    font-size: 65px;
+    padding-top: 40%;
+
+}
+
+.section-1a-description{
+    text-align: left;
+    width: 100%;
+    z-index: 1;
+    font-size: 20px;
+    padding-top: 30%;
+}
+
+
+
+.section-1b{
+
+}
+
+.section-1b-image{
+    height: 80%;
+    z-index: -1;
+}
+
+.section-2{
+    padding-left: 40%;
+}
+
