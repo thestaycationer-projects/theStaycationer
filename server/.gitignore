@@ -1,0 +1,47 @@
+# Dependency directories
+/node_modules
+/.venv
+/pipenv
+/vendor
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Editor/IDE specific files
+*.pyc
+*.pyo
+*.pyc/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment configuration
+.env
+
+# Log files
+*.log
+
+# Django-specific
+db.sqlite3
+/static_root/
+/media/
+
+# Flask-specific
+instance/
+.webassets-cache
+
+# Testing
+.coverage
+
+# Production
+*.pyc
+*.pyo
+
+# Others
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db

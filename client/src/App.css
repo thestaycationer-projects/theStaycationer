@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+/* In your CSS file or style tag */
+.custom-modal {
+  width: 80%;
+  max-width: 1600px;
+  background-color: "#ffffff"
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-modal .modal-content {
+  border-radius: 10px; /* Adjust the border-radius for curves */
+  padding: 20px; /* Adjust padding as needed */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom-modal .carousel-item img {
+  border-radius: 10px; /* Adjust the border-radius for images */
+  height: 80vh;
+  vertical-align: middle;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Optional: To center the modal vertically */
+.custom-modal .modal-dialog {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: calc(100vh - 20px); /* 20px is an approximation of the modal padding */
+}
+.modal-header {
+  width: 1138.4px;
+  height: 16px !important;
+  padding: 16px 16px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.custom-modal .carousel-control-prev, .custom-modal .carousel-control-next {
+  background-color: #ff4500; /* Arrow background color */
+  border-radius: 50%; /* Circle radius for arrows */
+  width: 30px; /* Adjust the width of the arrows */
+  height: 30px; /* Adjust the height of the arrows */
+  top: calc(50% - 15px); /* Vertically center the arrows */
+  color:black
+}
+.custom-modal .carousel-indicators {
+  display: none; /* Hide the indicators */
+}
+.custom-modal .btn-close {
+  align-self: flex-start;
+  margin-top: -35px;
+  margin-right: -60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* For the second Modal */
+
+.custom-modal2 {
+  width: 80%;
+  max-width: 1600px;
+  background-color: "#ffffff"
 }
+.body{
+  background-color: #ffffff;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 350px;
+  margin: 20px auto;
+}
+
+
+

@@ -1,23 +1,35 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# Dependency directories
 /node_modules
+/yarn-error.log
+/yarn.lock
 /.pnp
 .pnp.js
 
-# testing
+# Build artifacts
+/dist/
+/build/
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+
+# Testing
 /coverage
 
-# production
-/build
-
-# misc
-.DS_Store
+# Environment configuration
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Log files
+*.log
+
+# Compiled Webpack bundles
+*.js
+*.map
+
+# Other
+.DS_Store
+Thumbs.db

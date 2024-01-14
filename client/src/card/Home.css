@@ -1,0 +1,140 @@
+
+  .slider-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+    margin: 62px auto;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    transform-origin: center center;
+    transition: transform 0.5s ease-in-out;
+ 
+  }
+  
+  .slider-slide {
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    transform-origin: center center;
+    height: 208px;
+    overflow: hidden;
+    width: 298px;
+   
+   
+  }
+  .slider-button-prev,
+  .sliderr-button-next {
+    position: absolute;
+    top: 29%;
+    font-size: 25px;
+    left: 12px;
+    cursor: pointer;
+    background-color: #fc6b03;
+    color: #ffffff;
+    border: none;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+
+  }
+  
+  .sliderr-button-prev {
+    left: 10px;
+  }
+  
+  .slider-button-next {
+    position: absolute;
+    top: 31%;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #fc6b03;
+    color: #ffffff;
+    border: none;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    right: 6px;
+  }
+  .slider-slide img {
+    width: 60%; /* Make sure the image takes up the entire circular space */
+    height: 142px; /* Make sure the image takes up the entire circular space */
+    object-fit: cover; /* Maintain aspect ratio and cover the circular area */
+    border-radius: 50%; /* Ensure the image itself is also circular */
+  }
+  /* Add these styles to your existing CSS file or create a new one */
+
+  .hover-effect:hover {
+    background-color: #f8f9fa; /* Change to your desired background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow on hover */
+  }
+
+.home-text-container{
+  position: absolute;
+  text-align: left;
+  width: 50%;
+  left: -3rem;
+}
+.home-heading{
+  font-size: 10vh;
+  margin-top: 22%;
+  margin-left: 20%;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.home-subheading{
+  position: relative;
+  font-size: 7vh;
+  font-family: "Libre Bodoni", serif;
+  font-style: italic;
+  margin-left: 20%;
+}
+
+@media (max-width: 768px) {
+  .home-heading {
+    font-size: 6vh;
+    margin-top: 30%;
+  }
+  .home-subheading{
+    font-size: 4vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-heading{
+    font-size: 4vh;
+    margin-top: 30%;
+  }
+  .home-subheading{
+    font-size: 3vh;
+  }
+}
+
+@media (max-width: 350px) {
+  .home-heading{
+    font-size: 3vh;
+    margin-top: 30%;
+  }
+  .home-subheading{
+    font-size: 2vh;
+  }
+}
+/* Add this CSS to your stylesheet or style tag */
+.my-card {
+  width: 20rem;
+  height: 98%;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+
+.my-card:hover {
+  background-color: #f8f9fa; /* Change to your desired background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow on hover */
+}
