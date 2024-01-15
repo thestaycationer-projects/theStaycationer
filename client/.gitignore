@@ -1,7 +1,5 @@
 # Dependency directories
 /node_modules
-/yarn-error.log
-/yarn.lock
 /.pnp
 .pnp.js
 
@@ -9,12 +7,6 @@
 /dist/
 /build/
 
-# Editor/IDE specific files
-.idea/
-.vscode/
-
-# Testing
-/coverage
 
 # Environment configuration
 .env
@@ -23,13 +15,4 @@
 .env.test.local
 .env.production.local
 
-# Log files
-*.log
 
-# Compiled Webpack bundles
-*.js
-*.map
-
-# Other
-.DS_Store
-Thumbs.db
