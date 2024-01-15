@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./header/Navbar";
+import Navbar from "./top/Navbar";
 import Card from "./card/Card";
 import Property from "./card/Property";
 import Home from "./card/Home";
@@ -18,13 +18,13 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route exact path='/razorpay' element={<Razorpay />} />
+          <Route exact path="/razorpay" element={<Razorpay />} />
           <Route path="/card" element={<Card />} />
           <Route path="/property/:_id" element={<Property />} />
           <Route path="/propert/:_id" element={<StaycationDetails />} />
-          <Route exact path='/success' element={<Success />} />
-          <Route exact path='/failure' element={<Failure />} />
-          <Route exact path='/contactuspage' element={<ContactUsPage />} />
+          <Route exact path="/success" element={<Success />} />
+          <Route exact path="/failure" element={<Failure />} />
+          <Route exact path="/contactuspage" element={<ContactUsPage />} />
         </Routes>
         <Footer />
       </>
